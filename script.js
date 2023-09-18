@@ -1,6 +1,16 @@
 function firstChar(text) {
   // your code here
-	return text[0];
+	let z="";
+	let n=text.length;
+	if(n==0){
+		return z;
+	}
+	for(int i=0;i<n;i++){
+		if(text[i]!=" "){
+			z=z+twxt[i];
+		}
+	}
+	return z[0];
 }
 
 // Do not change the code below
