@@ -2,8 +2,8 @@ function firstChar(text) {
   // your code here
 	let z="";
 	let n=text.length;
-	if(n==0){
-		return z;
+	if(n==0 || text[0]=="" ||text[0]==" "){
+		return "";
 	}
 	for(int i=0;i<n;i++){
 		if(text[i]!=" "){
