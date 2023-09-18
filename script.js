@@ -7,7 +7,7 @@ function firstChar(text) {
 	}
 	for(int i=0;i<n;i++){
 		if(text[i]!=" "){
-			z=z+twxt[i];
+			z=z+text[i];
 		}
 	}
 	return z[0];
